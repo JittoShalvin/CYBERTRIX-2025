@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERTRIX 2025 - Magical Technology Symposium</title>
+    <meta name="description" content="Join CYBERTRIX 2025, a magical symposium of technology hosted by St. Joseph's Institute of Technology. Experience the future of Computer Science in a Harry Potter themed environment.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Uncial+Antiqua&family=MedievalSharp&family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="spell-circle">
+            <div class="inner-circle"></div>
+            <div class="spell-text">Loading Magic...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 class="logo-text">CYBERTRIX</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#bus-routes" class="nav-link">Bus Routes</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#schedules" class="nav-link">Schedule</a>
+                <a href="#registration" class="nav-link">Registration</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="magical-background">
+            <div class="floating-candles"></div>
+            <div class="sparkles"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hogwarts-gate">
+                <h1 class="main-title">CYBERTRIX 2025</h1>
+                <p class="subtitle">A Magical Symposium of Technology</p>
+                <p class="hosted-by">Hosted by Computer Science and Engineering Department<br>St. Joseph's Institute of Technology</p>
+            </div>
+            
+            <div class="countdown-container">
+                <h3 class="countdown-title">Time Until the Magic Begins</h3>
+                <div id="countdown" class="countdown">
+                    <div class="time-unit">
+                        <span id="days">00</span>
+                        <label>Days</label>
+                    </div>
+                    <div class="time-unit">
+                        <span id="hours">00</span>
+                        <label>Hours</label>
+                    </div>
+                    <div class="time-unit">
+                        <span id="minutes">00</span>
+                        <label>Minutes</label>
+                    </div>
+                    <div class="time-unit">
+                        <span id="seconds">00</span>
+                        <label>Seconds</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="registration-alert">
+                <p class="last-date">Last Date for Registration: <span class="date-highlight">March 15, 2025</span></p>
+            </div>
+        </div>
+
+        <div class="quote-container">
+            <div id="quotes-carousel" class="quotes-carousel">
+                <div class="quote active">
+                    <p>"It is our choices that show what we truly are, far more than our abilities."</p>
+                    <span>- Albus Dumbledore</span>
+                </div>
+                <div class="quote">
+                    <p>"Happiness can be found even in the darkest of times, if one only remembers to turn on the light."</p>
+                    <span>- Albus Dumbledore</span>
+                </div>
+                <div class="quote">
+                    <p>"We are only as strong as we are united, as weak as we are divided."</p>
+                    <span>- Albus Dumbledore</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About CYBERTRIX</h2>
+            <p class="section-subtitle">Unveiling the Magic Behind the Symposium</p>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-header">
+                        <span class="icon">📚</span>
+                        <h3>Our Department</h3>
+                    </div>
+                    <div class="parchment-content">
+                        <p>The Computer Science and Engineering Department at St. Joseph's Institute of Technology stands as a beacon of innovation and excellence in technological education. Established with the vision to create skilled wizards of the digital realm, our department has been nurturing brilliant minds for over two decades.</p>
+                        <p>Our state-of-the-art laboratories, experienced faculty, and comprehensive curriculum ensure that students are well-equipped to cast spells in the ever-evolving world of technology.</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-header">
+                        <span class="icon">🏆</span>
+                        <h3>Our Institution</h3>
+                    </div>
+                    <div class="parchment-content">
+                        <p>St. Joseph's Institute of Technology, like a grand castle of knowledge, has been a cornerstone of engineering education. Founded with the mission to blend traditional wisdom with modern innovation, SJIT has consistently produced graduates who excel in their chosen fields.</p>
+                        <p>Our institution believes in holistic development, ensuring that every student not only masters technical skills but also develops strong ethical values and leadership qualities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cybertrix-highlight">
+                <h3 class="highlight-title">✨ CYBERTRIX 2025 ✨</h3>
+                <div class="highlight-content">
+                    <p>CYBERTRIX is not merely a symposium—it is a magical convergence where the ancient art of learning meets the cutting-edge spells of technology. This enchanted gathering brings together the brightest minds from across the realm to share knowledge, showcase innovations, and forge new alliances in the digital world.</p>
+                    
+                    <div class="purpose-grid">
+                        <div>
+                            <h4>Our Purpose</h4>
+                            <ul>
+                                <li>✦ Foster innovation and creativity in technology</li>
+                                <li>✦ Provide a platform for knowledge exchange</li>
+                                <li>✦ Showcase cutting-edge research and projects</li>
+                                <li>✦ Build networks among tech enthusiasts</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Event Highlights</h4>
+                            <ul>
+                                <li>★ Technical paper presentations</li>
+                                <li>★ Coding competitions and hackathons</li>
+                                <li>★ Expert keynote speeches</li>
+                                <li>★ Interactive workshops and demos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-icon">👥</span>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Expected Participants</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">📚</span>
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Technical Events</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">🏆</span>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Prizes & Awards</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">✨</span>
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Days of Magic</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bus Routes Section -->
+    <section id="bus-routes" class="section bus-routes-section">
+        <div class="container">
+            <h2 class="section-title">Magical Transportation</h2>
+            <p class="section-subtitle">Choose Your Enchanted Journey to CYBERTRIX</p>
+
+            <div class="info-card">
+                <p>Board our magical transportation network and arrive at SJIT in comfort and style. Each route is enchanted with safety spells and comfort charms for your journey.</p>
+            </div>
+
+            <div class="routes-grid">
+                <div class="route-card">
+                    <div class="route-header">
+                        <h3>Hogwarts Express - Route A</h3>
+                        <span class="fare">₹150</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-points">
+                            <span>📍 Chennai Central</span>
+                            <span class="arrow">→</span>
+                            <span>📍 SJIT Campus</span>
+                        </div>
+                        <div class="route-info">
+                            <div class="info-item">
+                                <span class="icon">🕐</span>
+                                <div>
+                                    <div>Departure</div>
+                                    <div class="value">7:00 AM</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏱️</span>
+                                <div>
+                                    <div>Duration</div>
+                                    <div class="value">1.5 hours</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">👥</span>
+                                <div>
+                                    <div>Capacity</div>
+                                    <div class="value">50 seats</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stops">
+                            <h4>Magical Stops:</h4>
+                            <div class="stop-tags">
+                                <span class="stop-tag">Egmore</span>
+                                <span class="stop-tag">Guindy</span>
+                                <span class="stop-tag">Tambaram</span>
+                                <span class="stop-tag">Chengalpattu</span>
+                            </div>
+                        </div>
+                        <button class="spell-button">Reserve Your Magical Seat</button>
+                    </div>
+                </div>
+
+                <div class="route-card">
+                    <div class="route-header">
+                        <h3>Knight Bus - Route B</h3>
+                        <span class="fare">₹120</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-points">
+                            <span>📍 T. Nagar</span>
+                            <span class="arrow">→</span>
+                            <span>📍 SJIT Campus</span>
+                        </div>
+                        <div class="route-info">
+                            <div class="info-item">
+                                <span class="icon">🕐</span>
+                                <div>
+                                    <div>Departure</div>
+                                    <div class="value">7:30 AM</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏱️</span>
+                                <div>
+                                    <div>Duration</div>
+                                    <div class="value">1.2 hours</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">👥</span>
+                                <div>
+                                    <div>Capacity</div>
+                                    <div class="value">45 seats</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stops">
+                            <h4>Magical Stops:</h4>
+                            <div class="stop-tags">
+                                <span class="stop-tag">Saidapet</span>
+                                <span class="stop-tag">Guindy</span>
+                                <span class="stop-tag">St. Thomas Mount</span>
+                                <span class="stop-tag">Tambaram</span>
+                            </div>
+                        </div>
+                        <button class="spell-button">Reserve Your Magical Seat</button>
+                    </div>
+                </div>
+
+                <div class="route-card">
+                    <div class="route-header">
+                        <h3>Thestral Wing - Route C</h3>
+                        <span class="fare">₹180</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-points">
+                            <span>📍 Anna Nagar</span>
+                            <span class="arrow">→</span>
+                            <span>📍 SJIT Campus</span>
+                        </div>
+                        <div class="route-info">
+                            <div class="info-item">
+                                <span class="icon">🕐</span>
+                                <div>
+                                    <div>Departure</div>
+                                    <div class="value">7:15 AM</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏱️</span>
+                                <div>
+                                    <div>Duration</div>
+                                    <div class="value">1.8 hours</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">👥</span>
+                                <div>
+                                    <div>Capacity</div>
+                                    <div class="value">40 seats</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stops">
+                            <h4>Magical Stops:</h4>
+                            <div class="stop-tags">
+                                <span class="stop-tag">Kilpauk</span>
+                                <span class="stop-tag">Egmore</span>
+                                <span class="stop-tag">Park Town</span>
+                                <span class="stop-tag">Guindy</span>
+                                <span class="stop-tag">Tambaram</span>
+                            </div>
+                        </div>
+                        <button class="spell-button">Reserve Your Magical Seat</button>
+                    </div>
+                </div>
+
+                <div class="route-card">
+                    <div class="route-header">
+                        <h3>Flying Ford Anglia - Route D</h3>
+                        <span class="fare">₹100</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-points">
+                            <span>📍 Velachery</span>
+                            <span class="arrow">→</span>
+                            <span>📍 SJIT Campus</span>
+                        </div>
+                        <div class="route-info">
+                            <div class="info-item">
+                                <span class="icon">🕐</span>
+                                <div>
+                                    <div>Departure</div>
+                                    <div class="value">8:00 AM</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏱️</span>
+                                <div>
+                                    <div>Duration</div>
+                                    <div class="value">45 minutes</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">👥</span>
+                                <div>
+                                    <div>Capacity</div>
+                                    <div class="value">35 seats</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stops">
+                            <h4>Magical Stops:</h4>
+                            <div class="stop-tags">
+                                <span class="stop-tag">Adyar</span>
+                                <span class="stop-tag">Guindy</span>
+                                <span class="stop-tag">St. Thomas Mount</span>
+                            </div>
+                        </div>
+                        <button class="spell-button">Reserve Your Magical Seat</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="transportation-notes">
+                <h3>Important Transportation Notes</h3>
+                <div class="notes-grid">
+                    <div class="note-card">
+                        <h4>🧙‍♂️ Booking Guidelines</h4>
+                        <ul>
+                            <li>• Book your seat at least 3 days before the event</li>
+                            <li>• Carry a valid ID and registration confirmation</li>
+                            <li>• Arrive at the pickup point 15 minutes early</li>
+                            <li>• Payment can be made online or at pickup</li>
+                        </ul>
+                    </div>
+                    <div class="note-card">
+                        <h4>✨ Magical Amenities</h4>
+                        <ul>
+                            <li>• Comfortable cushioned seats with magical climate control</li>
+                            <li>• Complimentary breakfast and magical beverages</li>
+                            <li>• Free WiFi for last-minute event preparations</li>
+                            <li>• Emergency contact support throughout the journey</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section events-section">
+        <div class="container">
+            <h2 class="section-title">Magical Events & Competitions</h2>
+            <p class="section-subtitle">Cast Your Spells in These Enchanted Challenges</p>
+
+            <div class="events-grid">
+                <div class="event-card" data-event="paper-presentation">
+                    <div class="event-front">
+                        <div class="event-icon">📜</div>
+                        <h3>Technical Paper Presentation</h3>
+                        <p>Share your research and innovations</p>
+                        <div class="hover-hint">Hover to reveal more</div>
+                    </div>
+                    <div class="event-back">
+                        <h3>Technical Paper Presentation</h3>
+                        <div class="event-description">
+                            <p><strong>Description:</strong> Present your technical research and innovative ideas to a panel of expert judges. Showcase your knowledge and contribute to the magical world of technology.</p>
+                            <p><strong>Rules:</strong></p>
+                            <ul>
+                                <li>• 10-12 minutes presentation + 3 minutes Q&A</li>
+                                <li>• Original research work required</li>
+                                <li>• Maximum 3 authors per paper</li>
+                                <li>• PowerPoint or PDF format accepted</li>
+                            </ul>
+                            <p><strong>Prize:</strong> ₹15,000 for 1st place</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card" data-event="coding-contest">
+                    <div class="event-front">
+                        <div class="event-icon">💻</div>
+                        <h3>Coding Championship</h3>
+                        <p>Battle of algorithms and logic</p>
+                        <div class="hover-hint">Hover to reveal more</div>
+                    </div>
+                    <div class="event-back">
+                        <h3>Coding Championship</h3>
+                        <div class="event-description">
+                            <p><strong>Description:</strong> Test your programming skills in this intense coding competition. Solve complex algorithmic problems and demonstrate your coding prowess.</p>
+                            <p><strong>Rules:</strong></p>
+                            <ul>
+                                <li>• 3 hours coding session</li>
+                                <li>• Individual participation only</li>
+                                <li>• C++, Java, Python allowed</li>
+                                <li>• Online judge platform</li>
+                            </ul>
+                            <p><strong>Prize:</strong> ₹12,000 for 1st place</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card" data-event="web-design">
+                    <div class="event-front">
+                        <div class="event-icon">🎨</div>
+                        <h3>Web Design Wizardry</h3>
+                        <p>Create magical web experiences</p>
+                        <div class="hover-hint">Hover to reveal more</div>
+                    </div>
+                    <div class="event-back">
+                        <h3>Web Design Wizardry</h3>
+                        <div class="event-description">
+                            <p><strong>Description:</strong> Design and develop stunning websites that showcase your creativity and technical skills. Bring your magical ideas to life on the web.</p>
+                            <p><strong>Rules:</strong></p>
+                            <ul>
+                                <li>• 4 hours design + development</li>
+                                <li>• Team of 2-3 members</li>
+                                <li>• Responsive design required</li>
+                                <li>• Original theme and content</li>
+                            </ul>
+                            <p><strong>Prize:</strong> ₹10,000 for 1st place</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card" data-event="hackathon">
+                    <div class="event-front">
+                        <div class="event-icon">⚡</div>
+                        <h3>24-Hour Hackathon</h3>
+                        <p>Build solutions that change the world</p>
+                        <div class="hover-hint">Hover to reveal more</div>
+                    </div>
+                    <div class="event-back">
+                        <h3>24-Hour Hackathon</h3>
+                        <div class="event-description">
+                            <p><strong>Description:</strong> The ultimate coding marathon! Work continuously for 24 hours to build innovative solutions to real-world problems.</p>
+                            <p><strong>Rules:</strong></p>
+                            <ul>
+                                <li>• 24 hours non-stop coding</li>
+                                <li>• Team of 3-5 members</li>
+                                <li>• Any technology stack</li>
+                                <li>• Working prototype required</li>
+                            </ul>
+                            <p><strong>Prize:</strong> ₹25,000 for 1st place</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card" data-event="ai-challenge">
+                    <div class="event-front">
+                        <div class="event-icon">🤖</div>
+                        <h3>AI Magic Challenge</h3>
+                        <p>Harness the power of artificial intelligence</p>
+                        <div class="hover-hint">Hover to reveal more</div>
+                    </div>
+                    <div class="event-back">
+                        <h3>AI Magic Challenge</h3>
+                        <div class="event-description">
+                            <p><strong>Description:</strong> Develop AI-powered solutions using machine learning, deep learning, or natural language processing to solve complex problems.</p>
+                            <p><strong>Rules:</strong></p>
+                            <ul>
+                                <li>• 6 hours development time</li>
+                                <li>• Team of 2-4 members</li>
+                                <li>• Use any AI/ML framework</li>
+                                <li>• Demonstrate working model</li>
+                            </ul>
+                            <p><strong>Prize:</strong> ₹18,000 for 1st place</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card" data-event="cyber-security">
+                    <div class="event-front">
+                        <div class="event-icon">🛡️</div>
+                        <h3>Cybersecurity Quest</h3>
+                        <p>Defend the digital realm</p>
+                        <div class="hover-hint">Hover to reveal more</div>
+                    </div>
+                    <div class="event-back">
+                        <h3>Cybersecurity Quest</h3>
+                        <div class="event-description">
+                            <p><strong>Description:</strong> Test your cybersecurity knowledge through capture-the-flag challenges, vulnerability assessments, and security analysis.</p>
+                            <p><strong>Rules:</strong></p>
+                            <ul>
+                                <li>• CTF-style challenges</li>
+                                <li>• Individual or team (max 2)</li>
+                                <li>• 4 hours duration</li>
+                                <li>• Various difficulty levels</li>
+                            </ul>
+                            <p><strong>Prize:</strong> ₹15,000 for 1st place</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedules" class="section schedules-section">
+        <div class="container">
+            <h2 class="section-title">Magical Timeline</h2>
+            <p class="section-subtitle">Follow the Sorting Hat's Guide Through Our Enchanted Schedule</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="day">Day 1</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>March 15, 2025 - The Opening Ceremony</h3>
+                        <div class="schedule-events">
+                            <div class="schedule-event">
+                                <span class="time">9:00 AM</span>
+                                <span class="event">Registration & Welcome Breakfast</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">10:30 AM</span>
+                                <span class="event">Opening Ceremony & Keynote Speech</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">12:00 PM</span>
+                                <span class="event">Technical Paper Presentations - Round 1</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">1:30 PM</span>
+                                <span class="event">Magical Lunch Break</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">2:30 PM</span>
+                                <span class="event">Coding Championship - Qualifying Round</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">5:00 PM</span>
+                                <span class="event">AI Magic Challenge Begins</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">7:00 PM</span>
+                                <span class="event">Welcome Dinner & Networking</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="day">Day 2</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>March 16, 2025 - The Main Event</h3>
+                        <div class="schedule-events">
+                            <div class="schedule-event">
+                                <span class="time">9:00 AM</span>
+                                <span class="event">24-Hour Hackathon Kickoff</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">10:00 AM</span>
+                                <span class="event">Web Design Wizardry Competition</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">11:30 AM</span>
+                                <span class="event">Cybersecurity Quest - CTF Challenges</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">1:00 PM</span>
+                                <span class="event">Enchanted Lunch</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">2:00 PM</span>
+                                <span class="event">Technical Paper Presentations - Finals</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">4:00 PM</span>
+                                <span class="event">Coding Championship - Final Round</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">6:00 PM</span>
+                                <span class="event">Workshop: Future of AI in Technology</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">8:00 PM</span>
+                                <span class="event">Cultural Night & Entertainment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="day">Day 3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>March 17, 2025 - The Grand Finale</h3>
+                        <div class="schedule-events">
+                            <div class="schedule-event">
+                                <span class="time">9:00 AM</span>
+                                <span class="event">Hackathon Presentations</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">11:00 AM</span>
+                                <span class="event">Project Showcase & Demo Session</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">1:00 PM</span>
+                                <span class="event">Grand Feast</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">2:30 PM</span>
+                                <span class="event">Results & Judging</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">4:00 PM</span>
+                                <span class="event">Prize Distribution Ceremony</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">5:30 PM</span>
+                                <span class="event">Closing Ceremony</span>
+                            </div>
+                            <div class="schedule-event">
+                                <span class="time">6:30 PM</span>
+                                <span class="event">Farewell & Group Photos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sorting-hat">
+                <div class="hat-container">
+                    <div class="hat">🎩</div>
+                    <div class="hat-speech">
+                        <p>"Choose your events wisely, young wizards, for each competition shall test different aspects of your magical abilities in technology!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration" class="section registration-section">
+        <div class="container">
+            <h2 class="section-title">Magical Registration</h2>
+            <p class="section-subtitle">Join the Ranks of Technology Wizards</p>
+
+            <div class="registration-container">
+                <div class="quill-animation">🪶</div>
+                
+                <form id="registration-form" class="magical-form">
+                    <div class="form-group">
+                        <label for="full-name">Full Name *</label>
+                        <input type="text" id="full-name" name="fullName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="college">College/Institution *</label>
+                        <input type="text" id="college" name="college" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="department">Department *</label>
+                        <select id="department" name="department" required>
+                            <option value="">Select Your Department</option>
+                            <option value="CSE">Computer Science and Engineering</option>
+                            <option value="IT">Information Technology</option>
+                            <option value="ECE">Electronics and Communication Engineering</option>
+                            <option value="EEE">Electrical and Electronics Engineering</option>
+                            <option value="MECH">Mechanical Engineering</option>
+                            <option value="CIVIL">Civil Engineering</option>
+                            <option value="OTHER">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="year">Year of Study *</label>
+                        <select id="year" name="year" required>
+                            <option value="">Select Year</option>
+                            <option value="1">1st Year</option>
+                            <option value="2">2nd Year</option>
+                            <option value="3">3rd Year</option>
+                            <option value="4">4th Year</option>
+                            <option value="PG">Post Graduate</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="events">Select Events (Hold Ctrl for multiple) *</label>
+                        <select id="events" name="events" multiple required>
+                            <option value="paper-presentation">Technical Paper Presentation</option>
+                            <option value="coding-contest">Coding Championship</option>
+                            <option value="web-design">Web Design Wizardry</option>
+                            <option value="hackathon">24-Hour Hackathon</option>
+                            <option value="ai-challenge">AI Magic Challenge</option>
+                            <option value="cyber-security">Cybersecurity Quest</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the magical terms and conditions *</label>
+                    </div>
+
+                    <button type="submit" class="spell-button registration-btn">
+                        Cast Registration Spell
+                    </button>
+                </form>
+            </div>
+
+            <!-- Hidden ID Card Template -->
+            <div id="id-card-template" class="id-card" style="display: none;">
+                <div class="id-card-header">
+                    <h3>CYBERTRIX 2025</h3>
+                    <p>St. Joseph's Institute of Technology</p>
+                </div>
+                <div class="id-card-content">
+                    <div class="participant-info">
+                        <div class="info-row">
+                            <span class="label">Name:</span>
+                            <span class="value" id="card-name"></span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">College:</span>
+                            <span class="value" id="card-college"></span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Department:</span>
+                            <span class="value" id="card-department"></span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Registration No:</span>
+                            <span class="value" id="card-reg-no"></span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Events:</span>
+                            <span class="value" id="card-events"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="id-card-footer">
+                    <p>Computer Science and Engineering Department</p>
+                    <p>March 15-17, 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact the Ministry</h2>
+            <p class="section-subtitle">Reach Out to Our Magical Coordinators</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="coordinator-card">
+                        <h3>🧙‍♂️ Chief Organizer</h3>
+                        <div class="coordinator-details">
+                            <p><strong>Prof. Albus Techmore</strong></p>
+                            <p>📧 chief.organizer@sjit.ac.in</p>
+                            <p>📱 +91 98765 43210</p>
+                            <p>🏢 CSE Department, SJIT</p>
+                        </div>
+                    </div>
+
+                    <div class="coordinator-card">
+                        <h3>⚡ Technical Coordinator</h3>
+                        <div class="coordinator-details">
+                            <p><strong>Dr. Hermione Codestone</strong></p>
+                            <p>📧 tech.coord@sjit.ac.in</p>
+                            <p>📱 +91 98765 43211</p>
+                            <p>🏢 IT Lab, SJIT Campus</p>
+                        </div>
+                    </div>
+
+                    <div class="coordinator-card">
+                        <h3>🎪 Event Coordinator</h3>
+                        <div class="coordinator-details">
+                            <p><strong>Prof. Ron Eventsley</strong></p>
+                            <p>📧 events@sjit.ac.in</p>
+                            <p>📱 +91 98765 43212</p>
+                            <p>🏢 Main Auditorium, SJIT</p>
+                        </div>
+                    </div>
+
+                    <div class="institution-info">
+                        <h3>🏰 Institution Details</h3>
+                        <div class="institution-details">
+                            <p><strong>St. Joseph's Institute of Technology</strong></p>
+                            <p>📍 OMR, Chennai - 600 119</p>
+                            <p>📧 info@sjit.ac.in</p>
+                            <p>🌐 www.sjit.ac.in</p>
+                            <p>📱 +91 44 2747 4000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="owl-delivery">🦉</div>
+                    <h3>Send a Magical Message</h3>
+                    
+                    <form id="contact-form" class="magical-form">
+                        <div class="form-group">
+                            <label for="contact-name">Your Name *</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Your Email *</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject *</label>
+                            <input type="text" id="contact-subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Your Message *</label>
+                            <textarea id="contact-message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="spell-button">
+                            Send via Owl Post
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <span class="broomstick">🧹</span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
